@@ -12,3 +12,10 @@ Call C++ from Python
 3. Torch JIT
 
    compile `torch_extension.cu` just in time
+
+
+Extra CUDA optimization in `src`:
+
+- reduce
+- matrix transpose
+- matrix multiplication
